@@ -1,0 +1,82 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{style2017}
+\newcounter{numexo}
+\setcellgapes{1pt}
+
+\begin{document}
+
+
+\begin{NSI}
+{Exercice}{Expressions booléennes}
+\end{NSI}
+
+
+\addtocounter{numexo}{1}
+\subsection*{\Large Exercice \thenumexo }
+Évaluer les expressions booléennes suivantes.
+\begin{enumerate}
+\item True AND True
+\item NOT(False) AND False
+\item True OR Not(False)
+\item True AND False AND True
+\item NOT(False) OR NOT(True)
+\item False AND (NOT(True) OR NOT(False))
+\end{enumerate}
+
+\addtocounter{numexo}{1}
+\subsection*{\Large Exercice \thenumexo }
+
+\begin{enumerate}
+\item Donner la table de vérité de la fonction logique $\textbf{NOT~}(X \textbf{~AND~} Y)$ qui se note $\neg(X \wedge Y)$.
+\item Réaliser le circuit logique de cette fonction logique.
+\item A-t-on $\neg(X \wedge Y)=\neg X \wedge \neg Y$ ? 
+\item Écrire une fonction logique équivalente à $\neg(X \wedge Y)$ utilisant le OU.
+\item Réaliser le circuit logique associé et vérifier vos résultats.
+\item Déterminer la fonction logique équivalente à $\neg( X \vee Y)$
+\end{enumerate}
+
+\addtocounter{numexo}{1}
+\subsection*{\Large Exercice \thenumexo }
+L'objectif est de créer dans chacun des cas suivants, un circuit logique contenant 3 entrées binaires, des portes logiques \textbf{NOT}, \textbf{ET}, \textbf{OU} et une seule sortie binaire telle que:
+\begin{enumerate}
+\item la sortie vaut $0$ lorsque les trois entrées sont égales à $0$ et $1$ dans tous les autres cas.
+\item la sortie vaut $1$ si et seulement si les trois entrées sont égales à $1$.
+\item la sortie vaut $1$ si au moins deux entrées sont égales à $1$ (sinon la sortie vaut $0$).
+\end{enumerate}
+
+\addtocounter{numexo}{1}
+\subsection*{\Large Exercice \thenumexo }
+\begin{enumerate}
+\item Créer un circuit logique avec 2 entrées binaires, la porte logique \textbf{XOR} et une seule sortie binaire.
+\item Dresser la table de vérité de cette fonction logique. En quoi est-elle différente de la fonction logique \textbf{OU}?
+\item Créer un circuit logique avec 2 entrées binaires, les portes logiques \textbf{NOT}, \textbf{ET}, \textbf{OU} et une seule sortie binaire qui se comporte comme la port logique \textbf{XOR}.
+\end{enumerate}
+
+
+
+\addtocounter{numexo}{1}
+\subsection*{\Large Exercice \thenumexo }
+\begin{enumerate}
+\item \begin{enumerate}
+\item Dresser la table de vérité de la fonction logique $(x \vee y) \vee z$.
+\item Construire un circuit avec les portes logiques OU et vérifier votre table.
+\item Le rôle des parenthèses est-il important ?
+\end{enumerate} 
+\item \begin{enumerate}
+\item Dresser la table de vérité de la fonction logique $(x \wedge y) \wedge z$.
+\item Construire un circuit avec les portes logiques ET et vérifier votre table.
+\item Le rôle des parenthèses est-il important ?
+\end{enumerate}
+\item \begin{enumerate}
+\item Dresser la table de vérité de la fonction logique $x \wedge (y \vee z)$.
+\item Construire un circuit avec les portes logiques OU et ET et vérifier votre table.
+\item Parmi les fonctions logiques proposées, laquelle donne la même table de vérité que $x \wedge (y \vee z)$ ?
+
+\begin{tabular}{p{7cm}p{7cm}}
+\textbf{a)} $(x \vee y) \wedge (x \vee z)$ & \textbf{b)}$(x \wedge y) \vee (x \wedge z)$\\
+\end{tabular}
+\item Réaliser le circuit et vérifier les tables de vérité.
+\end{enumerate}
+\end{enumerate}
+\end{document}
